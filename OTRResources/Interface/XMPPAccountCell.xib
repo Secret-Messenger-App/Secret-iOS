@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="XMPPAccountCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMP-oL-wgG">
+                        <rect key="frame" x="24" y="15" width="50" height="50"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="gbw-BT-zNf"/>
+                        </constraints>
+                        <state key="normal" image="person"/>
+                        <connections>
+                            <action selector="avatarButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="R4A-Vy-UUU"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Display Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcN-Kc-vPc">
+                        <rect key="frame" x="84" y="15" width="182" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSx-aB-5rE">
+                        <rect key="frame" x="274" y="29" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="iUK-GD-xku"/>
+                        </constraints>
+                        <connections>
+                            <action selector="infoButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BPU-X6-sJR"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username@example.com ⚠️ " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fwT-Qx-m3a">
+                        <rect key="frame" x="84" y="46" width="182" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="S6x-3W-28u"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="GSx-aB-5rE" secondAttribute="trailing" constant="8" id="0Vs-OD-BdF"/>
+                    <constraint firstItem="fwT-Qx-m3a" firstAttribute="leading" secondItem="kcN-Kc-vPc" secondAttribute="leading" id="1x6-hr-FqA"/>
+                    <constraint firstItem="GSx-aB-5rE" firstAttribute="leading" secondItem="kcN-Kc-vPc" secondAttribute="trailing" constant="8" symbolic="YES" id="4dk-jT-EbP"/>
+                    <constraint firstItem="JMP-oL-wgG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="77b-48-8Tk"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fwT-Qx-m3a" secondAttribute="bottom" constant="7" id="G8f-J9-pzV"/>
+                    <constraint firstItem="GSx-aB-5rE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="18" id="KlQ-eF-bYJ"/>
+                    <constraint firstItem="JMP-oL-wgG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="Lqq-nu-Y1r"/>
+                    <constraint firstItem="JMP-oL-wgG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Mfr-IN-Naz"/>
+                    <constraint firstItem="JMP-oL-wgG" firstAttribute="centerY" secondItem="GSx-aB-5rE" secondAttribute="centerY" id="Q2v-Iy-pOd"/>
+                    <constraint firstItem="kcN-Kc-vPc" firstAttribute="leading" secondItem="JMP-oL-wgG" secondAttribute="trailing" constant="10" id="TPl-rV-Ya5"/>
+                    <constraint firstItem="fwT-Qx-m3a" firstAttribute="top" secondItem="kcN-Kc-vPc" secondAttribute="bottom" constant="10" id="dCI-VS-14r"/>
+                    <constraint firstItem="GSx-aB-5rE" firstAttribute="leading" secondItem="fwT-Qx-m3a" secondAttribute="trailing" constant="8" symbolic="YES" id="reX-Pr-7kx"/>
+                    <constraint firstItem="kcN-Kc-vPc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="9" id="xSS-SQ-jhR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accountNameLabel" destination="fwT-Qx-m3a" id="4IV-yC-KDY"/>
+                <outlet property="avatarButton" destination="JMP-oL-wgG" id="FHe-UU-ffd"/>
+                <outlet property="displayNameLabel" destination="kcN-Kc-vPc" id="P8Z-i9-Dou"/>
+                <outlet property="infoButton" destination="GSx-aB-5rE" id="SmH-QY-Jhd"/>
+            </connections>
+            <point key="canvasLocation" x="-535" y="130"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person" width="70" height="70"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

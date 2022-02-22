@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kOTRXMPPResource</key>
+	<string>secret</string>
+	<key>kOTRFeedbackEmail</key>
+	<string>feedback@secret.me</string>
+	<key>GOOGLE_APP_ID</key>
+	<string></string>
+	<key>GOOGLE_APP_SCOPE</key>
+	<string></string>
+	<key>GitHubURL</key>
+	<string>https://github.com/Secret-Messenger-App/Secret-iOS</string>
+	<key>AppStoreID</key>
+	<string>1438306682</string>
+	<key>FacebookAppURL</key>
+	<string></string>
+	<key>FacebookWebURL</key>
+	<string></string>
+	<key>TwitterAppURL</key>
+	<string></string>
+	<key>TwitterWebURL</key>
+	<string></string>
+	<key>TransifexURL</key>
+	<string>https://www.transifex.com/projects/p/chatsecure</string>
+	<key>ProjectURL</key>
+	<string>https://www.secret.me/</string>
+	<key>ShareBaseURL</key>
+	<string>https://www.secret.me/invite/</string>
+	<key>pushAPIURL</key>
+	<string>https://push.secret.me/</string>
+	<key>StagingPushAPIURL</key>
+	<string>https://stage.secret.me/</string>
+	<key>TestflightSignupURL</key>
+	<string>https://testflight.apple.com/join/DetCpT1W</string>
+	<key>SecretCertificate</key>
+	<string>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</string>
+	<key>ShouldShowPushWarning</key>
+	<false/>
+	<key>ShouldShowServerCell</key>
+	<false/>
+	<key>ShowsColorForStatus</key>
+	<true/>
+	<key>AllowsDonation</key>
+	<false/>
+	<key>TorEnabled</key>
+	<false/>
+	<key>AllowGroupOMEMO</key>
+	<true/>
+	<key>AllowDebugFileLogging</key>
+	<true/>
+	<key>AllowOMEMO</key>
+	<true/>
+</dict>
+</plist>

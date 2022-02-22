@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u63-jC-sYl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="BGr-uq-PcD">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="u63-jC-sYl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="StA-Hd-yQZ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3qI-wK-O4t" kind="relationship" relationship="rootViewController" id="J38-xe-BGe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pid-3i-fE3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-895" y="516"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="Hlq-Ux-DTm">
+            <objects>
+                <viewController id="3qI-wK-O4t" customClass="OTRWelcomeViewController" customModule="ChatSecureCore" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kXQ-5q-U2m"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ZM-WP-oof"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A06-Di-CeT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="chatsecure_logo_transparent" translatesAutoresizingMaskIntoConstraints="NO" id="7Yv-8V-PyJ">
+                                <rect key="frame" x="88" y="95" width="200" height="200"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2Rp-X5-DQx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzG-Jv-y0g">
+                                <rect key="frame" x="87" y="481" width="202" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Create New Account">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZvQ-dC-bHm" kind="show" identifier="createNewAccountSegue" id="BF6-Uh-6zt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS9-AF-nlm">
+                                <rect key="frame" x="107" y="562" width="162" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="Add Existing Account">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZvQ-dC-bHm" kind="show" identifier="addExistingAccount" id="fSh-dA-tdB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXC-AD-yXL">
+                                <rect key="frame" x="306" y="617" width="30" height="30"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipButtonPressed:" destination="3qI-wK-O4t" eventType="touchUpInside" id="Ef6-UO-IUu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RzG-Jv-y0g" firstAttribute="centerX" secondItem="VS9-AF-nlm" secondAttribute="centerX" id="0qH-lo-0Q8"/>
+                            <constraint firstItem="3ZM-WP-oof" firstAttribute="top" secondItem="KXC-AD-yXL" secondAttribute="bottom" constant="20" id="2qT-0B-MgI"/>
+                            <constraint firstItem="7Yv-8V-PyJ" firstAttribute="centerX" secondItem="A06-Di-CeT" secondAttribute="centerX" id="3Qk-gr-VS7"/>
+                            <constraint firstItem="7Yv-8V-PyJ" firstAttribute="centerX" secondItem="RzG-Jv-y0g" secondAttribute="centerX" id="9Ce-eP-rIn"/>
+                            <constraint firstItem="VS9-AF-nlm" firstAttribute="top" secondItem="RzG-Jv-y0g" secondAttribute="bottom" constant="45" id="e9v-Qr-SLN"/>
+                            <constraint firstItem="3ZM-WP-oof" firstAttribute="top" secondItem="VS9-AF-nlm" secondAttribute="bottom" constant="75" id="iU6-hW-3fv"/>
+                            <constraint firstItem="7Yv-8V-PyJ" firstAttribute="leading" secondItem="A06-Di-CeT" secondAttribute="leadingMargin" constant="72" id="ueV-E8-fk2"/>
+                            <constraint firstItem="7Yv-8V-PyJ" firstAttribute="top" secondItem="kXQ-5q-U2m" secondAttribute="bottom" constant="75" id="z3w-Z3-R8v"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="KXC-AD-yXL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2qT-0B-MgI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="r4e-3l-g8t"/>
+                    <connections>
+                        <outlet property="createAccountButton" destination="RzG-Jv-y0g" id="4vl-4J-veI"/>
+                        <outlet property="existingAccountButton" destination="VS9-AF-nlm" id="w7q-jY-DI4"/>
+                        <outlet property="logoImageView" destination="7Yv-8V-PyJ" id="WeH-vR-Fi0"/>
+                        <outlet property="skipButton" destination="KXC-AD-yXL" id="5at-su-IMc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yG0-S0-nax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-215" y="516"/>
+        </scene>
+        <!--Base Login View Controller-->
+        <scene sceneID="QUf-a6-hQn">
+            <objects>
+                <viewController storyboardIdentifier="createNewAccount" id="ZvQ-dC-bHm" customClass="OTRBaseLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hBA-dq-abq"/>
+                        <viewControllerLayoutGuide type="bottom" id="y6G-2m-Hxb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D8d-Eu-lEU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2V5-xZ-0Rv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="516"/>
+        </scene>
+        <!--Enable Push-->
+        <scene sceneID="ytl-yY-IXw">
+            <objects>
+                <viewController storyboardIdentifier="enablePush" id="3du-AF-GcQ" customClass="EnablePushViewController" customModule="ChatSecureCore" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hut-wH-ziW"/>
+                        <viewControllerLayoutGuide type="bottom" id="02O-Hn-a8E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uuE-MF-oGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JPq-4W-Efa">
+                                <rect key="frame" x="46" y="387" width="283" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8G-bh-AN7">
+                                <rect key="frame" x="171" y="562" width="34" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipButtonPressed:" destination="3du-AF-GcQ" eventType="touchUpInside" id="W2J-VJ-LFv"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chatsecure_logo_transparent" translatesAutoresizingMaskIntoConstraints="NO" id="kk6-yK-Mn4">
+                                <rect key="frame" x="88" y="95" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="uqT-WD-vhO"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3U-aD-4Vu">
+                                <rect key="frame" x="141" y="457" width="93" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="Enable Push">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="enablePushPressed:" destination="3du-AF-GcQ" eventType="touchUpInside" id="wPW-VZ-acu"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUe-lg-gJ2">
+                                <rect key="frame" x="46" y="237" width="283" height="150"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="3tJ-xn-20o"/>
+                                    <constraint firstAttribute="width" constant="283" id="K1M-Mc-jMV"/>
+                                </constraints>
+                                <string key="text">ChatSecure can now automatically notify compatible offline contacts that you'd like to establish a secure conversation. To protect your privacy, these notifications currently do not contain any content.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="02O-Hn-a8E" firstAttribute="top" secondItem="i8G-bh-AN7" secondAttribute="bottom" constant="75" id="DgM-8Z-zsd"/>
+                            <constraint firstItem="kk6-yK-Mn4" firstAttribute="centerX" secondItem="J3U-aD-4Vu" secondAttribute="centerX" id="HVa-bb-A9k"/>
+                            <constraint firstItem="kk6-yK-Mn4" firstAttribute="top" secondItem="hut-wH-ziW" secondAttribute="bottom" constant="75" id="gVi-DT-zqP"/>
+                            <constraint firstItem="kk6-yK-Mn4" firstAttribute="centerX" secondItem="uuE-MF-oGJ" secondAttribute="centerX" id="qC0-Cn-kJ1"/>
+                            <constraint firstItem="J3U-aD-4Vu" firstAttribute="centerX" secondItem="i8G-bh-AN7" secondAttribute="centerX" id="swC-Ip-sS1"/>
+                            <constraint firstItem="kk6-yK-Mn4" firstAttribute="leading" secondItem="uuE-MF-oGJ" secondAttribute="leadingMargin" constant="72" id="vKB-PU-XUh"/>
+                            <constraint firstItem="i8G-bh-AN7" firstAttribute="top" secondItem="J3U-aD-4Vu" secondAttribute="bottom" constant="75" id="yz9-vF-fTd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JPq-4W-Efa"/>
+                                <exclude reference="QUe-lg-gJ2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="enablePushButton" destination="J3U-aD-4Vu" id="IKM-SQ-uLW"/>
+                        <outlet property="skipButton" destination="i8G-bh-AN7" id="ELN-RL-P9l"/>
+                        <outlet property="textView" destination="QUe-lg-gJ2" id="off-8R-foh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKU-8h-9fw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="1251"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chatsecure_logo_transparent" width="512" height="512"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="fSh-dA-tdB"/>
+    </inferredMetricsTieBreakers>
+</document>
