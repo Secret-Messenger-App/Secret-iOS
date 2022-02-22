@@ -1,0 +1,24 @@
+PODS:
+  - SignalProtocolC (2.3.2)
+  - SignalProtocolObjC (1.1.0):
+    - SignalProtocolC (~> 2.3.2)
+
+DEPENDENCIES:
+  - SignalProtocolC (~> 2.3.2)
+  - SignalProtocolObjC (from `../SignalProtocolObjC.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SignalProtocolC
+
+EXTERNAL SOURCES:
+  SignalProtocolObjC:
+    :path: "../SignalProtocolObjC.podspec"
+
+SPEC CHECKSUMS:
+  SignalProtocolC: 051512e9f3abfeb4120c5e9673af9ae0ee370070
+  SignalProtocolObjC: 081edb39a3e7f451e4433e298cfcf59fe4d3cdfc
+
+PODFILE CHECKSUM: 0cb26afd1cf4cd9d47731cf19a5bd0190c3b30a0
+
+COCOAPODS: 1.5.3

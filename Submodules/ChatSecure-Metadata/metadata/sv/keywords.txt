@@ -1,0 +1,1 @@
+säkerhet,chat,im,krypterad,signal,telegram,message,xmpp,otr,tor,omemo

@@ -1,0 +1,28 @@
+ChatSecure es una aplicación de mensajería libre y de código abierto que presenta cifrado  OTR sobre XMPP. Puede conectar con una cuenta de Google existente, crear nuevas cuentas en servidores XMPP públicos (también mediante Tor), o incluso puede conectar con su propio servidor para tener más seguridad
+
+A diferencia de otras aplicaciones que le mantienen aferrado a su jardín cerrado, ChatSecure puede operar con otros clientes con soporte OTR y XMPP, como Adium, Jitsi, y otros.
+
+ChatSecure sólo usa librerías criptográficas de código abierto bien conocidas para que sus conversaciones sigan siendo privadas. Otras aplicaciones pueden hacer proclamas sobre seguridad de 'nivel militar', pero sin un código públicamente auditable y un cifrado extremo-a-extremo verificable, no puede estar realmente seguro.
+
+* XMPP con fijación (pinning) de certificado TLS.
+* OTR para cifrado extremo-a-extremo verificable y secreto hacia delante.
+* OMEMO para una alternativa al cifrado OTR adecuada para móvil
+* Integración con Tor para un fácil acceso a servicios XMPP .onion.
+* SQLCipher para cifrar locamente los registros (logs) de conversación.
+* Libre y de código abierto: https://github.com/chatsecure/chatsecure-ios
+
+Siga @ChatSecure en Twitter: https://twitter.com/chatsecure
+
+►► Donaciones a ChatSecure
+Suscríbase a ChatSecure para ayudar a hacer sostenible el desarrollo de herramientas de privacidad  libres y de código abierto. Damos la bienvenida a cualquier contribución para apoyar el desarrollo en marcha. Los niveles de donación actualmente son 2.99 $/mes, 5.99 $/mes o 19.99 $/mes. Esto es lo que obtiene a cambio:
+
+• Sentirse bien apoyando software independiente
+• Desarrollo continuado y actualizaciones
+• Ayudar a que la aplicación siga siendo gratuita para todos
+
+Para administrar su suscripción:
+• Puede desactivar la auto-renovación a través de la aplicación principal de Ajustes: http://support.apple.com/kb/ht4098
+• La suscripción se renueva automáticamente a menos que la auto-renovación sea desactivada al menos con 24 horas de antelación al final del actual periodo de suscripción. Su cuenta de iTunes recibirá un cargo por renovación en las 24 horas previas al final del actual periodo de suscripción, e identificará el coste de la renovación.
+• El pago se cargará a la cuenta de iTunes al confirmarse la compra.
+• Visite la siguiente URL para ver nuestra política de privacidad: https://chatsecure.org/privacy/
+• Visite la siguiente URL para ver las condiciones de uso completas: https://chatsecure.org/terms/

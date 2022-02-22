@@ -1,0 +1,19 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
+language: objective-c
+# cache: cocoapods
+# podfile: Example/Podfile
+# before_install:
+# - gem install cocoapods # Since Travis is not always on latest version
+# - pod install --project-directory=Example
+# install:
+# - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+xcode_workspace: Example/IOCipher.xcworkspace
+xcode_scheme: IOCipherTests
+podfile: Example/Podfile
+script:
+- pod lib lint --quick
+- xctool -workspace Example/IOCipher.xcworkspace -scheme IOCipherTests -sdk iphonesimulator -arch i386 test
+

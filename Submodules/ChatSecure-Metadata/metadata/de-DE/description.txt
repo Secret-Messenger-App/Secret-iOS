@@ -1,0 +1,28 @@
+ChatSecure ist eine freie und quelloffene Kurznachrichten-App, die OTR-Verschlüsselung über XMPP verfügt. Sie können zu einem vorhandenen Google-Konto verbinden, neue Konten auf öffentlichen XMPP-Servern erstellen (auch über Tor) oder sogar eine Verbindung zu Ihrem eigenen Server für zusätzliche Sicherheit herstellen.
+
+Im Gegensatz zu anderen Anwendungen, ist ChatSecure vollständig interoperabel mit anderen Programmen, OTR und XMPP werden genauso unterstützt wie auch Adium, Jitsi und andere.
+
+ChatSecure verwendet nur bekannte quelloffene kryptographische Bibliotheken, um Ihre Unterhaltungen privat zu halten. Andere Apps können Behauptungen über Sicherheit eines militärischen Grades aufstellen, aber ohne öffentlich überprüfbaren Quellcode und überprüfbare Ende-zu-Ende-Verschlüsselung, kann man nicht wirklich sicher sein.
+
+* XMPP mit TLS-Zertifikatfestlegung.
+* OTR für nachweisliche Ende-zu-Ende-Verschlüsselung und vorwärts gerichtete Geheimhaltung.
+* OMEMO für eine Handy-freundliche Alternative zu OTR.
+* Tor Integration für einen einfachen Zugriff zu den XMPP .onion Diensten.
+* SQLCipher, um lokal Gesprächsprotokolle zu verschlüsseln.
+* Frei und quelloffen: https://github.com/chatsecure/chatsecure-ios
+
+Folgen Sie @ChatSecure auf Twitter: https://twitter.com/chatsecure
+
+►► ChatSecure Spenden
+Abonnieren Sie ChatSecure und helfen damit freie und quelloffene Datenschutzwerkzeuge zu entwickeln. Wir freuen uns über jeden Beitrag, der der Weiterentwicklung nützt. Die Höhe der Spenden betragen derzeit 2,99$/Monat, 5,99$/Monat oder 19,99$/Monat. Hier eine Auflistung, was Sie dafür bekommen:
+
+• Haben Sie ein gutes Gefühl bei der Unterstützung von unabhängiger Software
+• Weiterentwicklung und Updates
+• Durch Ihre Hilfe können wir die App kostenfrei für alle anbieten
+
+So verwalten Sie Ihr Abonnement:
+• Sie können die automatische Verlängerung über die App der Haupteinstellungen deaktivieren: http://support.apple.com/kb/ht4098
+• Das Abonnement verlängert sich automatisch, außer wenn die automatische Verlängerung mindestens 24 Stunden vor dem Ende des laufenden Abrechnungszeitraums deaktiviert wird. Ihr iTunes-Konto wird für die Verlängerung  innerhalb von 24 Stunden vor dem Ende des laufenden Abrechnungszeitraums belastet und es werden dabei die Kosten für die Erneuerung ermittelt.
+• Die Zahlung wird bei erfolgter Kaufbestätigung dieses iTunes-Konto belasten.
+• Besuchen Sie die folgende Adresse, um unsere Datenschutzerklärung zu sehen: https://chatsecure.org/privacy/
+• Besuchen Sie die folgende Adresse, um die vollständigen Nutzungsbedingungen zu sehen: https://chatsecure.org/terms/

@@ -1,0 +1,146 @@
+objc: true
+output: Docs
+framework_root: YapDatabase
+sdk: iphonesimulator
+umbrella_header: JazzyDocsUmbrella.h
+theme: fullwidth
+author: YapStudios
+custom_categories:
+- name: Core
+  children:
+  - YapDatabase
+  - YapDatabaseOptions
+  - YapDatabaseConnection
+  - YapDatabaseReadTransaction
+  - YapDatabaseReadWriteTransaction
+- name: Utilities
+  children:
+  - YapBidirectionalCache
+  - YapCache
+  - YapCollectionKey
+  - YapDatabaseConnectionConfig
+  - YapDatabaseConnectionPool
+  - YapDatabaseConnectionProxy
+  - YapDatabaseQuery
+  - YapProxyObject
+  - YapWhitelistBlacklist
+- name: Extension Protocol
+  children:
+  - YapDatabaseExtension
+  - YapDatabaseExtensionConnection
+  - YapDatabaseExtensionTransaction
+- name: View
+  children:
+  - YapDatabaseView
+  - YapDatabaseViewOptions
+  - YapDatabaseViewConnection
+  - YapDatabaseViewTransaction
+  - YapDatabaseViewMappings
+  - YapDatabaseViewRowChange
+  - YapDatabaseViewSectionChange
+  - YapDatabaseViewRangeOptions
+- name: AutoView
+  children:
+  - YapDatabaseAutoView
+  - YapDatabaseAutoViewConnection
+  - YapDatabaseAutoViewTransaction
+  - YapDatabaseViewGrouping
+  - YapDatabaseViewSorting
+  - YapDatabaseViewFind
+- name: ManualView
+  children:
+  - YapDatabaseManualView
+  - YapDatabaseManualViewConnection
+  - YapDatabaseManualViewTransaction
+- name: FilteredView
+  children:
+  - YapDatabaseFilteredView
+  - YapDatabaseFilteredViewConnection
+  - YapDatabaseFilteredViewTransaction
+  - YapDatabaseViewFiltering
+- name: SearchResultsView
+  children:
+  - YapDatabaseSearchResultsView
+  - YapDatabaseSearchResultsViewOptions
+  - YapDatabaseSearchResultsViewConnection
+  - YapDatabaseSearchResultsViewTransaction
+  - YapDatabaseSearchQueue
+- name: SecondaryIndex
+  children:
+  - YapDatabaseSecondaryIndex
+  - YapDatabaseSecondaryIndexOptions
+  - YapDatabaseSecondaryIndexConnection
+  - YapDatabaseSecondaryIndexTransaction
+  - YapDatabaseSecondaryIndexHandler
+  - YapDatabaseSecondaryIndexSetup
+  - YapDatabaseSecondaryIndexColumn
+- name: Relationship
+  children:
+  - YapDatabaseRelationship
+  - YapDatabaseRelationshipOptions
+  - YapDatabaseRelationshipConnection
+  - YapDatabaseRelationshipTransaction
+  - YapDatabaseRelationshipEdge
+  - YapDatabaseRelationshipNode
+- name: FullTextSearch
+  children:
+  - YapDatabaseFullTextSearch
+  - YapDatabaseFullTextSearchConnection
+  - YapDatabaseFullTextSearchTransaction
+  - YapDatabaseFullTextSearchHandler
+  - YapDatabaseFullTextSearchSnippetOptions
+- name: RTreeIndex
+  children:
+  - YapDatabaseRTreeIndex
+  - YapDatabaseRTreeIndexOptions
+  - YapDatabaseRTreeIndexConnection
+  - YapDatabaseRTreeIndexTransaction
+  - YapDatabaseRTreeIndexHandler
+  - YapDatabaseRTreeIndexSetup
+- name: Hooks
+  children:
+  - YapDatabaseHooks
+  - YapDatabaseHooksConnection
+  - YapDatabaseHooksTransaction
+- name: ActionManager
+  children:
+  - YapDatabaseActionManager
+  - YapDatabaseActionManagerConnection
+  - YapDatabaseActionManagerTransaction
+  - YapActionItem
+  - YapActionable
+  - YapReachability
+- name: CloudKit
+  children:
+  - YapDatabaseCloudKit
+  - YapDatabaseCloudKitOptions
+  - YapDatabaseCloudKitConnection
+  - YapDatabaseCloudKitTransaction
+  - YapDatabaseCloudKitRecordHandler
+  - YDBCKRecord
+  - YDBCKRecordInfo
+  - YDBCKChangeSet
+  - YDBCKMergeInfo
+  - CKRecord(YapDatabaseCloudKit)
+- name: CloudCore
+  children:
+  - YapDatabaseCloudCore
+  - YapDatabaseCloudCoreOptions
+  - YapDatabaseCloudCoreConnection
+  - YapDatabaseCloudCoreTransaction
+  - YapDatabaseCloudCoreOperation
+  - YapDatabaseCloudCorePipeline
+  - YapDatabaseCloudCorePipelineDelegate
+  - YapDatabaseCloudCoreGraph
+- name: CrosssProcessNotification
+  children:
+  - YapDatabaseCrossProcessNotification
+  - YapDatabaseCrossProcessNotificationConnection
+  - YapDatabaseCrossProcessNotificationTransaction
+- name: Notifications
+  children:
+  - YapDatabaseClosedNotification
+  - YapDatabaseModifiedExternallyNotification
+  - YapDatabaseModifiedNotification
+exclude:
+- /*/Internal/*

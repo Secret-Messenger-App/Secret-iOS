@@ -1,0 +1,20 @@
+language: objective-c
+osx_image: xcode9
+cache: cocoapods
+env:
+  global:
+  - IOS_SDK=iphonesimulator11
+  - WORKSPACE=YapTaskQueue.xcworkspace
+  - POD_WORKSPACE=YapTaskQueueSpecTest/YapTaskQueueSpecTest.xcworkspace
+  - IOS_FRAMEWORK_SCHEME=YapTaskQueue
+  - POD_IOS_FRAMEWORK_SCHEME=YapTaskQueueSpecTest
+  matrix:
+    - DESTINATION="OS=11.0,name=iPhone 8"     POD_LINT="YES"
+script:
+  - pod update
+  - pod update --project-directory=YapTaskQueueSpecTest/
+  - xcodebuild -workspace "$WORKSPACE" -scheme "$IOS_FRAMEWORK_SCHEME" -sdk "$IOS_SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c;
+  - xcodebuild -workspace "$POD_WORKSPACE" -scheme "$POD_IOS_FRAMEWORK_SCHEME" -sdk "$IOS_SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
+  - if [ $POD_LINT == "YES" ]; then
+      pod lib lint --allow-warnings;
+    fi

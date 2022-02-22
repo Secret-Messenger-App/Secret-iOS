@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'IOCipherTests', :exclusive => true do
+  pod "IOCipher", :path => "../"
+end
+
+target 'IOCipherServer', :exclusive => true do
+  pod "IOCipher/GCDWebServer", :path => "../"
+end
+

@@ -1,0 +1,1 @@
+sicher,Chat,IM,verschlüsseln,Signal,Telegram,Nachricht,xmpp,otr,tor,Geheimnis,omemo

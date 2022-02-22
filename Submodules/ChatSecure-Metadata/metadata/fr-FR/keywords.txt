@@ -1,0 +1,1 @@
+sécurise,conversation,crypté,signal,telegram,message,xmpp,ort,tor,secret,omemo

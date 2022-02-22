@@ -1,0 +1,16 @@
+PODS:
+  - OTRKit (3.0.0)
+
+DEPENDENCIES:
+  - OTRKit (from `../../OTRKit.podspec`)
+
+EXTERNAL SOURCES:
+  OTRKit:
+    :path: "../../OTRKit.podspec"
+
+SPEC CHECKSUMS:
+  OTRKit: 456b8d1ed8320a625978fe3a2bd5e03ad8d15806
+
+PODFILE CHECKSUM: 127ef2600b939723e40b5dfc3c6f88260f611481
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,28 @@
+ChatSecure est une application de messagerie instantanée libre et open source qui permet d'utiliser le chiffrage OTR sur le protocole XMPP. Vous pouvez vous connecter avec un compte Google existant, créer un nouveau compte sur un serveur XMPP public (Tor est supporté), ou même vous connecter sur votre propre serveur pour plus de sécurité.
+
+Contrairement aux autres apps qui vous enferment dans leur écosystème, ChatSecure est totalement compatible avec les autres clients disposant du support d'OTR et de XMPP, comme Adium, Jitsi, et bien d'autres.
+
+ChatSecure utilise uniquement des librairies de chiffrement reconnues et open source, ceci afin de garder vos conversations privées. D'autres apps clament qu'elle proposent une sécurité "de niveau militaire", mais sans code source auditable de manière publique et de chiffrement de bout en bout vérifiable, vous ne pouvez pas être réellement en sécurité.
+
+* XMPP avec épinglage de certificat TLS.
+* OTR pour un chiffrement de bout en bout vérifiable et une confidentialité persistante.
+*OMEMO pour une alternative mobile à OTR.
+* Intégration Tor pour un accès facile aux services XMMP .onion.
+* SQLCipher pour chiffrer les historiques de conversation localement.
+Libre et open source : https://github.com/chatsecure/chatsecure-ios
+
+Suivez @ChatSecure sur Twitter : https://twitter.com/chatsecure
+
+►► Dons ChatSecure
+Abonnez-vous à ChatSecure pour aider à développer durablement les outils de confidentialité libres et ouverts. Nous nous félicitons de toute contribution pour soutenir le développement en cours. Les niveaux de dons sont actuellement de 2,99$ par mois, de 5,99$ par mois ou de 19,99$ par mois. Voici ce que vous obtenez:
+
+• Sentez-vous bien en supportant le logiciel indie
+• Développement continu et mises à jour
+• Aidez-vous à garder l'application gratuite pour tout le monde
+
+Pour gérer votre abonnement:
+• Vous pouvez désactiver le renouvellement automatique via l'application Paramètres principaux: http://support.apple.com/kb/ht4098
+• L'abonnement se renouvelle automatiquement à moins que le renouvellement automatique ne soit éteint au moins 24 heures avant la fin de la période en cours. Votre compte iTunes sera facturé pour un renouvellement dans les 24 heures précédant la fin de la période en cours et identifiera le coût du renouvellement.
+• Le paiement sera facturé au compte iTunes lors de la confirmation d'achat.
+• Visitez l'URL suivant pour voir notre Politique de confidentialité: https://chatsecure.org/privacy/
+• Visitez l'URL suivante pour les conditions d'utilisation complètes: https://chatsecure.org/terms/

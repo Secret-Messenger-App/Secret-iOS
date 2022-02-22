@@ -1,0 +1,28 @@
+ChatSecure er et gratis Open Source chat app som understøtter OTR kryptering over XMPP. Du kan forbinde til en eksisterende Google konto, oprette nye konti på offentlige XMPP servere (inklusiv via Tor), eller endda forbinde til din egen server for ekstra sikkerhed.
+
+I modsætning til andre apps som holder dig fanget i deres eget lukkede ecosystem fungerer ChatSecure perfekt med andre klienter som understøtter OTR og XMPP, såsom Adium, Jitsi, og mange andre.
+
+ChatSecure benytter velforståede Open Source kryptografi biblioteker for at holde dine samtaler private. Andre apps påstår at de er "sikre nok til brug i militære og regerings formål" men uden deres kildekode kan revideres af alle kan sådanne påstande om end-to-end-kryptering ikke verificeres og du vil derfor aldrig være fuldstændig sikker.
+
+* XMPP med TLS certifikat fastholdelse.
+* OTR for verificerbare end-to-end kryptering og fremtidssikret hemmeligholdelse.
+* OMEMO som mobilvenligt alternativ til OTR.
+* Tor integration for nem adgang til XMPP .onion tjenester.
+* SQLCipher for at krypterer samtalehistorik på din iOS enhed.
+* Frit og Open Source: https://github.com/chatsecure/chatsecure-ios
+
+Følg @ChatSecure på Twitter: https://twitter.com/chatsecure
+
+►► ChatSecure donationer
+Abonner til ChatSecure for at hjælpe med at gøre udviklingen af gratis og open source privatlivsværktøjer bæredygtig. Vi glæder os over ethvert bidrag til at understøtte den igangværende udvikling. Donationsniveauerne er i øjeblikket $2.99/måndedligt, $5.99/månedligt or $19.99/månedligt. Dette får du ud af det:
+
+• Hav det godt med at understøtte indie software
+• Fortsat udvikling og opdateringer
+• Hjælp med at holde appen gratis for alle
+
+For at administrere dine abonnementer:
+• Du kan slå automatisk fornyelse fra via Hovedindstillings appen: http://support.apple.com/kb/ht4098
+• Abonnementet fornyes automatisk med mindre automatisk fornyelse er slået fra, mindst 24 timer før slutningen af den igangværende periode. Der vil blive opkrævet fornyelse, på din iTunes konto, 24 timer før slutningen af den nuværende periode, hvor det samlede beløb af fornyelsen også bliver udregnet.
+• Betalingssummen vil blive trukket fra din iTunes konto idet købet er blevet bekræftet.
+• Besøg følgende URL for at se vores privatlivspolitik: https://chatsecure.org/privacy/
+• Besøg følgende URL for at se brugerbetingelser: https://chatsecure.org/terms/

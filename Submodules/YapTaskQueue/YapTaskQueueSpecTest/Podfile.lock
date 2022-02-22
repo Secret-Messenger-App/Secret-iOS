@@ -1,0 +1,68 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - YapDatabase (2.8.3):
+    - YapDatabase/Standard (= 2.8.3)
+  - YapDatabase/Standard (2.8.3):
+    - YapDatabase/Standard/Core (= 2.8.3)
+    - YapDatabase/Standard/Extensions (= 2.8.3)
+  - YapDatabase/Standard/Core (2.8.3):
+    - CocoaLumberjack (~> 2)
+  - YapDatabase/Standard/Extensions (2.8.3):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/CloudKit (= 2.8.3)
+    - YapDatabase/Standard/Extensions/ConnectionProxy (= 2.8.3)
+    - YapDatabase/Standard/Extensions/FilteredViews (= 2.8.3)
+    - YapDatabase/Standard/Extensions/FullTextSearch (= 2.8.3)
+    - YapDatabase/Standard/Extensions/Hooks (= 2.8.3)
+    - YapDatabase/Standard/Extensions/Relationships (= 2.8.3)
+    - YapDatabase/Standard/Extensions/RTreeIndex (= 2.8.3)
+    - YapDatabase/Standard/Extensions/SearchResults (= 2.8.3)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 2.8.3)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 2.8.3)
+    - YapDatabase/Standard/Extensions/Views (= 2.8.3)
+  - YapDatabase/Standard/Extensions/CloudKit (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ConnectionProxy (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/FilteredViews (2.8.3):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/Views
+  - YapDatabase/Standard/Extensions/FullTextSearch (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Hooks (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Relationships (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/RTreeIndex (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/SearchResults (2.8.3):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/FullTextSearch
+    - YapDatabase/Standard/Extensions/Views
+  - YapDatabase/Standard/Extensions/SecondaryIndex (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Views (2.8.3):
+    - YapDatabase/Standard/Core
+  - YapTaskQueue (0.1):
+    - YapDatabase (~> 2.8.0)
+
+DEPENDENCIES:
+  - YapTaskQueue (from `../YapTaskQueue.podspec`)
+
+EXTERNAL SOURCES:
+  YapTaskQueue:
+    :path: "../YapTaskQueue.podspec"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  YapDatabase: 15b6867a07ff30eac3af28794cd2262b4d0ca4ca
+  YapTaskQueue: d7bd4f952647d4facb0f6b1aa41fff3419e065db
+
+COCOAPODS: 0.39.0

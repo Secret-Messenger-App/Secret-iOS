@@ -1,0 +1,1 @@
+secure,seguro,chat,im,mensajería,encrypt,cifrada,signal,telegram,mensaje,xmpp,otr,tor,secreto,omemo

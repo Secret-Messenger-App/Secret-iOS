@@ -1,0 +1,16 @@
+PODS:
+  - CPAProxy (2.0.0)
+
+DEPENDENCIES:
+  - CPAProxy (from `./CPAProxy.podspec`)
+
+EXTERNAL SOURCES:
+  CPAProxy:
+    :path: "./CPAProxy.podspec"
+
+SPEC CHECKSUMS:
+  CPAProxy: 9cf08f2aaa8a81dbefbff73e4018e50616bb337f
+
+PODFILE CHECKSUM: 8ec8eb0834fcab66a52b34b5df8c3269144356ec
+
+COCOAPODS: 1.8.4

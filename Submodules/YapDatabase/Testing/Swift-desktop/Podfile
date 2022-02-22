@@ -1,0 +1,15 @@
+# Workaround for Xcode bug:
+# - https://www.ralfebert.de/ios/blog/cocoapods-clean-input-output-files/
+# - https://github.com/CocoaPods/CocoaPods/issues/8073
+# - https://github.com/CocoaPods/CocoaPods/pull/8105
+# 
+install! 'cocoapods', :disable_input_output_paths => true
+
+target 'Swift-desktop' do
+	platform :osx, '10.14'
+	use_frameworks!
+
+	# Pods for Swift-desktop
+	pod "YapDatabase/Standard", path: '../../'
+
+end

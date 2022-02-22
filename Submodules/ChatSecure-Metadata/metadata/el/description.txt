@@ -1,0 +1,28 @@
+Το ChatSecure είναι μια εφαρμογή ανταλλαγής μηνυμάτων ελεύθερου και ανοικτού κώδικα που διαθέτει κρυπτογράφηση OTR επί XMPP. Μπορείτε να συνδεθείτε σε έναν υπάρχοντα λογαριασμό Google, να δημιουργήσετε νέους λογαριασμούς για τους δημόσιους κεντρικούς XMPP διακομιστες (μεταξύ άλλων και μέσω Tor), ή ακόμα και να συνδεθείτε με δικό σας διακομιστή για επιπλέον ασφάλεια.
+
+Σε αντίθεση με άλλες εφαρμογές το ChatSecure είναι πλήρως διαλειτουργικό με άλλες εφαρμογες που υποστηρίζουν OTR και XMPP, όπως Adium, Jitsi, και πολλά άλλα.
+
+Το ChatSecure χρησιμοποιεί μόνο γνωστές ανοιχτού κώδικα κρυπτογράφησης βιβλιοθήκες για να κρατήσει τις συνομιλίες σας ιδιωτικές. Άλλες εφαρμογές μπορούν να κάνουν ισχυρισμούς για «στρατιωτικό βαθμό« ασφαλείας, αλλά, χωρίς να είναι δυνατό να ελεγχθεί δημόσια πηγαίος κώδικας και επαληθεύσιμη κρυπτογράφηση από άκρο σεάκρο, δεν μπορείτε να είστε πραγματικά ασφαλής.
+
+* XMPP με TLS πιστοποιητικό Καρφίτσωμα.
+* OTR για επαληθεύσιμη από άκρο σε άκρο κρυπτογράφηση.
+OMEMO για μια φιλική για το κινητό εναλλακτική στο OTR
+* Tor integration for easy access to XMPP .onion services.
+* SQLCipher για τοπική κρυπτογράφηση αρχείων καταγραφής συνομιλίας.
+* Ελεύθερο και Ανοικτού Κώδικα: https://github.com/chatsecure/chatsecure-ios
+
+Ακολουθήστε το ChatSecure στο Twitter: https://twitter.com/chatsecure
+
+►► ChatSecure Donations
+Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+
+• Feel good supporting indie software
+• Continued development and updates
+• Help keep the app free for everyone
+
+To manage your subscription:
+• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
+• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
+• Payment will be charged to iTunes Account at confirmation of purchase.
+• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
+• Visit the following URL for full terms of use: https://chatsecure.org/terms/

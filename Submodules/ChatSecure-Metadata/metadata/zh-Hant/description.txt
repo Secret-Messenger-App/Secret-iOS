@@ -1,0 +1,28 @@
+ChatSecure 是一個自由且開源的即時通訊軟體，特色是｢不留紀錄」的加密聊天 (OTR)，使用 XMPP 通訊協定。你可以登入既有的 Google 帳號，或者在公用的 XMPP 伺服器上創建新帳號（也可以透過洋蔥網路 (tor) 來連線），甚至連線到你自己架設的 XMPP 伺服器來增加額外的安全性。
+
+其它的即時通訊軟體大多將你關在它們的小花園裡，ChatSecure 與它們不同，只要是支援OTR（｢不留紀錄｣的加密聊天）和XMPP的通訊軟體，例如 Adium, Jitsi, Pidgin, Gajim等等，ChatSecure 都可以與它們互相通訊。
+
+ChatSecure 只使用為公眾所知的開源加密程式庫來維持你的對話的隱密性。有些通訊軟體可能宣稱它們具備｢軍事等級｣的安全性，然而，只要它們的程式碼不公開給大眾檢驗，以及不提供可驗證通話雙方身分的點對點加密，你的對話就不可能真正的安全。
+
+* 使用 TLS 憑證的 XMPP 通訊協定
+* OTR 用於點對點加密和轉傳訊息時的隱密性
+* OMEMO for a mobile-friendly alternative to OTR.
+* Tor integration for easy access to XMPP .onion services.
+* 使用 SQLCipher 在裝置上加密對話紀錄
+* 自由且開源：https://github.com/chatsecure/chatsecure-ios
+
+在 Twitter 上追蹤 @ChatSecure: https://twitter.com/chatsecure
+
+►► ChatSecure Donations
+Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+
+• Feel good supporting indie software
+• Continued development and updates
+• Help keep the app free for everyone
+
+To manage your subscription:
+• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
+• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
+• Payment will be charged to iTunes Account at confirmation of purchase.
+• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
+• Visit the following URL for full terms of use: https://chatsecure.org/terms/

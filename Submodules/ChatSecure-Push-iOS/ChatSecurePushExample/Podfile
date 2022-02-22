@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+source 'https://cdn.cocoapods.org/'
+
+use_frameworks!
+
+def default_pod
+  pod 'ChatSecure-Push-iOS', :path => '../ChatSecure-Push-iOS.podspec'
+end
+
+target 'ChatSecurePushExample' do
+  default_pod
+end
+
+target 'ChatSecurePushExampleTests' do
+  platform :ios, '8.0'
+  default_pod
+  pod 'URLMock', '~> 1.3'
+end

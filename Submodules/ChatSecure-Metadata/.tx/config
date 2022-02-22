@@ -1,0 +1,26 @@
+[main]
+host = https://www.transifex.com
+
+[chatsecure.ios-app-store-description]
+source_lang = en_US
+source_file = metadata/en-US/description.txt
+file_filter = metadata/<lang>/description.txt
+lang_map = da_DK:da, de:de-DE, el:el, en_US:en-AU, en_US:en-CA, en_US:en-GB, en_US:en-US, es:es-ES, fi:fi, fr:fr-CA, fr:fr-FR, id:id, it:it, ja:ja, ko_KR:ko, ms:ms, nl_NL:nl-NL, no:no, pt_BR:pt-BR, pt_PT:pt-PT, ru:ru, sv:sv, th:th, tr:tr, vi:vi, zh_CN:zh-Hans, zh_TW:zh-Hant
+
+[chatsecure.ios-app-store-title]
+source_lang = en_US
+source_file = metadata/en-US/name.txt
+file_filter = metadata/<lang>/name.txt
+lang_map = da_DK:da, de:de-DE, el:el, en_US:en-AU, en_US:en-CA, en_US:en-GB, en_US:en-US, es:es-ES, fi:fi, fr:fr-CA, fr:fr-FR, id:id, it:it, ja:ja, ko_KR:ko, ms:ms, nl_NL:nl-NL, no:no, pt_BR:pt-BR, pt_PT:pt-PT, ru:ru, sv:sv, th:th, tr:tr, vi:vi, zh_CN:zh-Hans, zh_TW:zh-Hant
+
+[chatsecure.ios-app-store-subtitle]
+source_lang = en_US
+source_file = metadata/en-US/subtitle.txt
+file_filter = metadata/<lang>/subtitle.txt
+lang_map = da_DK:da, de:de-DE, el:el, en_US:en-AU, en_US:en-CA, en_US:en-GB, en_US:en-US, es:es-ES, fi:fi, fr:fr-CA, fr:fr-FR, id:id, it:it, ja:ja, ko_KR:ko, ms:ms, nl_NL:nl-NL, no:no, pt_BR:pt-BR, pt_PT:pt-PT, ru:ru, sv:sv, th:th, tr:tr, vi:vi, zh_CN:zh-Hans, zh_TW:zh-Hant
+
+[chatsecure.ios-app-store-keywords]
+source_lang = en_US
+source_file = metadata/en-US/keywords.txt
+file_filter = metadata/<lang>/keywords.txt
+lang_map = da_DK:da, de:de-DE, el:el, en_US:en-AU, en_US:en-CA, en_US:en-GB, en_US:en-US, es:es-ES, fi:fi, fr:fr-CA, fr:fr-FR, id:id, it:it, ja:ja, ko_KR:ko, ms:ms, nl_NL:nl-NL, no:no, pt_BR:pt-BR, pt_PT:pt-PT, ru:ru, sv:sv, th:th, tr:tr, vi:vi, zh_CN:zh-Hans, zh_TW:zh-Hant

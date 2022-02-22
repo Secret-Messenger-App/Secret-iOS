@@ -1,0 +1,28 @@
+ChatSecure是一个基于XMPP的免费开源实时消息框架，它集成了OTR即时通讯加密保护协议，你可以使用Google账户或者创建自己的新账户来登录公开的XMPP服务器(包括通过Tor)，甚至可以连接你自己的XMPP服务器来获得更安全的通信服务。
+
+不像其他的应用程序，把你困在自己的“花园围墙”内，ChatSecure是完全可以和其他客户端互操作，支持OTR和XMPP，如Adium，Jitsi等。
+
+ChatSecure只使用了知名的开源加密库，使您的对话保持私密。其他应用程序也许声称“军工级别”安全性，但没有可公开审计源代码和可验证的端到端加密，无法保证真正安全。
+
+XMPP TLS证书锁定。
+OTR用于可验证的端到端加密和前向保密。
+OMEMO协议为了移动友好度替换为OTR。
+* Tor integration for easy access to XMPP .onion services.
+SQLCipher加密本地聊天日志。
+免费开源项目：https://github.com/chatsecure/chatsecure-ios
+
+在Twitter上关注我们：@ChatSecure https://twitter.com/chatsecure
+
+►► 捐助 ChatSecure 
+Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+
+• Feel good supporting indie software
+• Continued development and updates
+• Help keep the app free for everyone
+
+管理我的订阅:
+• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
+• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
+• 当交易完成后，款项将从Itunes 账户你扣款。
+•请参阅我们的隐私政策：https://chatsecure.org/privacy/
+• 完整的使用守则请参阅: https://chatsecure.org/terms/

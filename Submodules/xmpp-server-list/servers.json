@@ -1,0 +1,21 @@
+{
+    "servers": [
+                {
+                "name": "Secret Messenger",
+                "description": "Secret Messenger",
+                "website": "https://www.secret.me/",
+                "twitter": "https://twitter.com/secretmessenger",
+                "privacy_policy": "https://www.secret.me/privacy.html",
+                "logo": "images/secret.png",
+                "country_code": "CH",
+                "domain": "secret.me",
+                "server": "secret.me",
+                "port": 5222,
+                "requires_otr": false,
+                "captcha": false,
+                "extensions": ["XEP-0313", "XEP-0363", "XEP-0384"],
+                "certificate":
+                    "MIIFgDCCBGigAwIBAgISBITKdcyM47u4zvmqcBU8ewc/MA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMTEyMDMyMzE1MDFaFw0yMjAzMDMyMzE1MDBaMBQxEjAQBgNVBAMTCXNlY3JldC5tZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKv2zTWmAbcE2mbcwuHoFXvFdE/XirD7NKilmV3UIaO0XfklkM0xn0TvNmXGCFpQf907XvTJzQ9Bsg3kV/tjY+zqAqAS8/yQe+1m1BT8oBbu/NOitoxP13U7QjPBnd/lPjqj/k7sOo5UXrk8Z24mRqU88Jumx1z3wnZ+WQLJPNPiGACB4QUqAQNu3vkbFau2KGIU6t/7EwG6wU+iooZ5P5StlZZsjrlZmOOnE5zLVxANRk5rqLq4crYCZ8mCusv2iMl8syep9RALfkKzIv8l2+bcts4XxdSR8gHKnJZ1Rxp/znrU9S3LRxcEsfkoMWjtDXC+Lrk6H2RCEwehs8/VZ90CAwEAAaOCAqwwggKoMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUIJi5Eqq9Exmn8KphtlYM/mfR8EgwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wewYDVR0RBHQwcoIUY29uZmVyZW5jZS5zZWNyZXQubWWCD3Byb3h5LnNlY3JldC5tZYIQcHVic3ViLnNlY3JldC5tZYILcy5zZWNyZXQubWWCCXNlY3JldC5tZYIQdXBsb2FkLnNlY3JldC5tZYINd3d3LnNlY3JldC5tZTBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AN+lXqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABfYLLTiwAAAQDAEcwRQIgQX8W3CyvN5pDw0d0EqCKHSJHK3LB0zcfEPlp6PLJNngCIQCQS/uIbCO0MMZAtElKkT37xePvVRX7yzajAqBkdQhnVQB3AEalVet1+pEgMLWiiWn0830RLEF0vv1JuIWr8vxw/m1HAAABfYLLTlAAAAQDAEgwRgIhANJRHu1lILZRaKmayq8c8idBCBa+KboD5jVG+40Ke33MAiEAwd1qKNISXUFE0wpgA9xg+swvzyYC31QRQD8U5FRMbI0wDQYJKoZIhvcNAQELBQADggEBAJla3MzvY4Wbq/Ff2SaM18n2g1gJttNEUCInLCErUNYqTEUa7HZ0EcoVSttqC+50cHP/O3xUwCeoFQmlaFlJt1ColGqOTg3KDua4k1zUkkh4tzuXzSOk+gBYT5VQvi+nTP1G+6oWH8VtO1AbNVqBfmCoQ39DVcyPgW3jybTq7AmTwcbP1MvUqwcS9E0EBLrKfu1b+1r0j4ZSVjLKBTe5pws1325OBbqlYOAQIR1IvAe9ZELGbyjAJwp0GPOvvf/7JaBTGTHQmYm6OzuUyKB0wBDugQT2oEo/FzwG5tIlMQurw+P/9hjQqIzl3xP6Do0yxBuCVpQ21f9dSnxQWTynTfI="
+                }
+                ]
+}

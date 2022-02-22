@@ -1,0 +1,1 @@
+secure,chat,encrypt,signal,telegram,xmpp,secret,seguro,conversação,encriptar,mensagem,segredo
