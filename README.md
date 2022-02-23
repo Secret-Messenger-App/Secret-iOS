@@ -2,9 +2,9 @@
 
 [Secret Messenger](https://www.secret.me) is a free and open source Jabber ([XMPP](https://en.wikipedia.org/wiki/XMPP)) messaging client for Apple and Android devices focused on Privacy and Security with full [OMEMO](https://en.wikipedia.org/wiki/OMEMO) encrypted messaging support. 
 
-Secret app is available for iOS and iPadOS, with the abilty to run on the new M1 Macs.
+Secret Messenger for iOS is designed for iPhone and iPad devices, with the ability to run on the new Apple Silicon Macs.
 
-Download the latest version of Secret Messenger app from the Apple App Store:
+Download the latest version of Secret Messenger for iOS from the Apple App Store:
 
 [![download secret messenger on the app store](https://www.secret.me/assets/appstore.svg)](https://apps.apple.com/us/app/secret-private-messenger/id1438306682)
 
