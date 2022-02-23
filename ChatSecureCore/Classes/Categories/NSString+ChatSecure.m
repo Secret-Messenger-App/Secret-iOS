@@ -1,8 +1,7 @@
 //
 //  NSString+ChatSecure.m
-//  ChatSecure
 //
-//  Created by David Chiles on 12/16/14.
+//  Copyright (c) 2022 Secret, Inc. All rights reserved.
 //  Copyright (c) 2014 Chris Ballinger. All rights reserved.
 //
 
@@ -53,11 +52,12 @@
     if (!user) {
         return nil;
     }
-    
-    //NSString* at = @"@";
-    //NSString* nickname = [at stringByAppendingString: user];
-    
-    return self;//nickname;
+    if ([[jid domain] isEqualToString:@"secret.me"]){
+        NSString* at = @"@";
+        NSString* nickname = [at stringByAppendingString: user];
+        return nickname;
+    }
+    return self;
 }
 
 - (nullable NSString*) otr_displayName {
@@ -66,7 +66,6 @@
     if (!user) {
         return nil;
     }
-    //user = [user capitalizedString];
     return user;
 }
 
