@@ -1169,7 +1169,7 @@ typedef NS_ENUM(int, OTRDropDownType) {
         account = [self accountWithTransaction:transaction];
         buddy = [self buddyWithTransaction:transaction];
     }]; 
-    if (!account || !buddy || ([buddy isKindOfClass:[OTRXMPPBuddy class]] && [(OTRXMPPBuddy *)buddy pendingApproval])) {
+    if (!account || !buddy) {
         return;
     }
     id manager = [[OTRProtocolManager sharedInstance] protocolForAccount:account];
